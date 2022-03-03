@@ -1,9 +1,9 @@
 ## Resumo
 
-Descreva resumidamente o que este PR faz.
+Briefly describe what this PR does.
 
 ## Evidências (fotos/gifs/links)
 
-Como se comportava antes? Como está agora?
+How did it behave before? How is it now?
 
-Inserir video/gif/imagem de demonstração.
+Insert video/gif/images.
