@@ -4,7 +4,7 @@ export const App: React.FC = () => {
   return (
     <div>
         <p>
-          Share Up
+          Share Up Social Media
         </p>
     </div>
   );
