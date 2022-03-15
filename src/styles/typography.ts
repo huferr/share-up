@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 interface TypographyProps {
   color?: string;
-  fontWeight: "bold" | "regular" | "light";
+  fontWeight: 'bold' | 'regular' | 'light';
   marginTop?: string;
   marginBottom?: number;
   marginLeft?: number;
@@ -13,7 +13,7 @@ const fontWeight: Record<TypographyProps['fontWeight'], number> = {
   bold: 700,
   regular: 400,
   light: 100,
-}
+};
 
 export const Title = styled.h1<TypographyProps>`
   font-size: 54px;
