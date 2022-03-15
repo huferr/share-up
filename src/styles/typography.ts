@@ -44,3 +44,13 @@ export const Description = styled.h3<TypographyProps>`
   margin-left: ${(props) => props.marginLeft};
   margin-right: ${(props) => props.marginRight};
 `;
+
+export const Small = styled.h4<TypographyProps>`
+  font-size: 14px;
+  color: ${(props) => props.color};
+  font-weight: ${(props) => fontWeight[props.fontWeight]};
+  margin-top: ${(props) => props.marginTop};
+  margin-bottom: ${(props) => props.marginBottom};
+  margin-left: ${(props) => props.marginLeft};
+  margin-right: ${(props) => props.marginRight};
+`;
